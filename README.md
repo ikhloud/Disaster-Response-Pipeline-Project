@@ -52,10 +52,11 @@ I create data visualizations in my web app based on data you extract from the SQ
 
 #### ETL pipeline
 - data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py : 
-|- InsertDatabaseName.db   # database to save clean data to
+
+| - disaster_categories.csv  # data to process 
+| - disaster_messages.csv  # data to process
+| - process_data.py : 
+| - InsertDatabaseName.db   # database to save clean data to
 
 #### ML pipeline
 - models
