@@ -7,6 +7,12 @@ Figure Eight are providing pre-labeled tweets and messages from real-life disast
 This project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
 
 
+Below are a few screenshots of the web app
+
+![visualizations of the data](https://user-images.githubusercontent.com/48630950/72177841-a3b6f480-33f2-11ea-91d3-3b44f7ae8255.png)
+
+
+
 ## Project Components
 There are three components for this project.
 
@@ -37,6 +43,7 @@ I create a machine learning pipeline that uses NLTK, as well as scikit-learn's P
 File run.py, contains a Flask file
 Add data visualizations using Plotly in the web app. 
 I create data visualizations in my web app based on data you extract from the SQLite database.
+
 
 
 ## Here's the file structure of the project:
