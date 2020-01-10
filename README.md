@@ -41,9 +41,13 @@ I create data visualizations in my web app based on data you extract from the SQ
 
 #### web app
 - app
+
 | - template
+
 | |- master.html  # main page of web app
+
 | |- go.html  # classification result page of web app
+
 |- run.py  # Flask file that runs app
 
 #### ETL pipeline
