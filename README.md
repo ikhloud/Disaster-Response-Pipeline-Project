@@ -10,7 +10,8 @@ This project will include a web app where an emergency worker can input a new me
 ## Project Components
 There are three components for this project.
 
-1. ETL Pipeline
+#### 1. ETL Pipeline
+
 File  process_data.py, contains a data cleaning pipeline that:
 
 Loads the messages and categories datasets
@@ -18,7 +19,8 @@ Merges the two datasets
 Cleans the data
 Stores it in a SQLite database
 
-2. ML Pipeline
+#### 2. ML Pipeline
+
 File train_classifier.py, contains a machine learning pipeline that:
 
 Loads data from the SQLite database
@@ -30,7 +32,7 @@ Exports the final model as a pickle file
 
 I create a machine learning pipeline that uses NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model that uses the message column to predict classifications for 36 categories (multi-output classification)
 
-3. Flask Web App
+#### 3. Flask Web App
 
 File run.py, contains a Flask file
 Add data visualizations using Plotly in the web app. 
