@@ -54,13 +54,18 @@ I create data visualizations in my web app based on data you extract from the SQ
 - data
 
 | - disaster_categories.csv  # data to process 
+
 | - disaster_messages.csv  # data to process
-| - process_data.py : 
+
+| - process_data.py :
+
 | - InsertDatabaseName.db   # database to save clean data to
 
 #### ML pipeline
 - models
+
 |- train_classifier.py
+
 |- classifier.pkl  # saved model 
 
 
@@ -77,8 +82,9 @@ I create data visualizations in my web app based on data you extract from the SQ
 
 3. Go to http://0.0.0.0:3001/
 
-To find your enviroment of your workspace
-1-. open new terminal and print :
+##### To find your enviroment of your workspace
+
+1- open new terminal and print :
 env|grep WORK
 
   this will print:
@@ -88,4 +94,4 @@ env|grep WORK
 2- identify your website link by doing substitution :
 https://WORKSPACEID-3001.WORKSPACEDOMAIN
 
-My website link will be : https://view6914b2f4-3001.udacity-student-workspaces.com
+
