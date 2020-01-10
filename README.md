@@ -8,10 +8,17 @@ This project will include a web app where an emergency worker can input a new me
 
 
 Below are a few screenshots of the web app
+ 
+ 
+Visualizations of the data
 
 ![visualizations of the data](https://user-images.githubusercontent.com/48630950/72177841-a3b6f480-33f2-11ea-91d3-3b44f7ae8255.png)
 
+Classification results
 
+![classification results](https://user-images.githubusercontent.com/48630950/72178151-5a1ad980-33f3-11ea-8d7b-0a10ef010d05.png)
+
+![classification results 2](https://user-images.githubusercontent.com/48630950/72178155-5edf8d80-33f3-11ea-9c55-edb153a680df.png)
 
 ## Project Components
 There are three components for this project.
